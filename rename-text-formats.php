@@ -75,4 +75,5 @@ foreach ($tasks as $old => $new) {
     ->execute();
 }
 
-cache_clear_all();
+// cache_clear_all();
+drupal_flush_all_caches();
